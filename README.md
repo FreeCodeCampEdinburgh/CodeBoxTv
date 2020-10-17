@@ -4,6 +4,8 @@ Advanced Project for fun to allow FCCEdinburgh members to learn more about socke
 
 ## Technologies:
 NodeJs & React. Postgres database will also be included -> Best to go down SQL route for now.
+Suggested implementation: KoaJS for the API interfacing & server.
+
 ## Learning Objectives:
 React, Node
 Sockets
