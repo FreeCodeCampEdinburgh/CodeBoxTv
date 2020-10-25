@@ -1,0 +1,39 @@
+{
+  "name": "code-box-tv-api",
+  "version": "0.0.1",
+  "description": "CodeBoxTV api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeCodeCampEdinburgh/CodeBoxTv.git"
+  },
+  "author": "FreeCodeCampEdinburgh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreeCodeCampEdinburgh/CodeBoxTv/issues"
+  },
+  "homepage": "https://github.com/FreeCodeCampEdinburgh/CodeBoxTv#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.6.1",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
