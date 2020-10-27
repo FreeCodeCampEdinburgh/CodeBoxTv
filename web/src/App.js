@@ -1,11 +1,10 @@
 import './App.css';
+import Header from './Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Code Box TV</p>  
-      </header>
+    <div className="App"> 
+        <Header />
     </div>
   );
 }
