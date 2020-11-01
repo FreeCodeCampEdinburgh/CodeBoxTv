@@ -2,7 +2,7 @@ import './App.css';
 
 import Header from './components/header';
 import JoinRoom from './domain/joinRoom';
-import Main from './components/Main';
+import Main from './components/main';
 
 function App() {
   return (
