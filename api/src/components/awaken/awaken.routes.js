@@ -1,8 +1,8 @@
 const express = require('express');
-const awakenController = require('./awaken.controller');
+const { awaken } = require('./awaken');
 
 const awakenRouter = express.Router();
 
-awakenRouter.get('/awaken', awakenController.get);
+awakenRouter.get('/awaken', awaken);
 
 module.exports = awakenRouter;
