@@ -1,4 +1,4 @@
-const app = require('./app'); // the actual Express app
+const app = require('./components/app'); // the actual Express app
 const http = require('http');
 const socketIo = require('socket.io');
 const config = require('./utils/config');
